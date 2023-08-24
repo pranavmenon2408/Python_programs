@@ -2,17 +2,11 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from fastapi import FastAPI,status
 from pydantic import BaseModel
 from typing import List
-client=AsyncIOMotorClient("mongodb+srv://pranav2408dhruv:h3z42kgGE67eL9c0@cluster0.ddclzkr.mongodb.net/?retryWrites=true&w=majority")
-database=client.test
-book_collection=database.get_collection("BOOK_COLLECTION")
-def book_helper(book) -> dict:
-      return {
-        "bookId": str(book["bookId"]),
-        "title": book['title'],
-        "author":book['author'],
-        "publisher": book['publisher']
-        
-    }
+client=AsyncIOMotorClient("mongodb+srv://triyanmukherjee:fIxjD9QwL6Rs67PD@cluster0.4tj4yw2.mongodb.net/")
+database=client.Cluster0
+book_collection=database.get_collection("User")
+def book_helper(dum)->dict:
+     "_id":str(dum["_id"])
 
 class Book(BaseModel):
     bookId:int
