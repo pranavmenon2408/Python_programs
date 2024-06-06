@@ -1,0 +1,9 @@
+SEMANTIC SEGMENTATION:
+->Pyramid Scene Parsing Network(Github:https://github.com/hszhao/PSPNet)
+
+-> Fully Convolutional Network(Github:https://github.com/pytorch/vision/blob/main/torchvision/models/segmentation/fcn.py)
+
+->SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers(Hugging Face: https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512
+Github:https://github.com/NVlabs/SegFormer)
+
+->FCOS: Fully Convolutional One-Stage Object Detection(Github:https://github.com/tianzhi0549/FCOS)
