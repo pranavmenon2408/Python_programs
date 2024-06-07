@@ -1,4 +1,6 @@
 SEMANTIC SEGMENTATION:
+->Important Github Repo: https://github.com/open-mmlab/mmsegmentation?tab=readme-ov-file
+
 ->Pyramid Scene Parsing Network(Github:https://github.com/hszhao/PSPNet)
 
 -> Fully Convolutional Network(Github:https://github.com/pytorch/vision/blob/main/torchvision/models/segmentation/fcn.py)
@@ -7,3 +9,9 @@ SEMANTIC SEGMENTATION:
 Github:https://github.com/NVlabs/SegFormer)
 
 ->FCOS: Fully Convolutional One-Stage Object Detection(Github:https://github.com/tianzhi0549/FCOS)
+
+->Vision Transformer Adapter for Dense Predictions (Github:https://github.com/czczup/ViT-Adapter)
+
+->BEiT: BERT Pre-Training of Image Transformers (Github:https://github.com/microsoft/unilm/tree/master/beit2)
+
+->InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions (Github: https://github.com/opengvlab/internimage)
