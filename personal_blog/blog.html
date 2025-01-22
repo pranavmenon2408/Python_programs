@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: url('images/img4.jpg') no-repeat center center fixed; /* Background image */
+      background-size: cover; /* Cover the entire background */
+      color: #333;
+    }
+    header, footer {
+      background: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    nav {
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center the cards */
+    }
+    .card {
+      display: flex;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+      border: 1px solid #ddd;
+      border-radius: 8px; /* Rounded corners */
+      width: 80%; /* Set a width for the cards */
+    }
+    .card img {
+      width: 200px; /* Fixed width for the image */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 8px 0 0 8px; /* Rounded corners on the left */
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h2 {
+      margin: 0 0 10px; /* Margin below the heading */
+    }
+    .header-box {
+      background: rgba(255, 255, 255, 0.8); /* Light background for visibility */
+      padding: 20px;
+      border-radius: 10px; /* Rounded corners */
+      margin: 20px auto; /* Center the box */
+      max-width: 600px; /* Set a maximum width for the box */
+      text-align: center; /* Center text */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-box">
+    <h1>Blog</h1>
+    <p>Read my latest posts</p>
+  </div>
+  <main>
+    <div class="card">
+      <img src="images/img5.jpg" alt="Beach Adventure">
+      <div class="card-content">
+        <h2>Beach Adventures: A Day in Paradise</h2>
+        <p>As a student at MIT, I often find myself buried in books and assignments. However, I recently took a break and spent a day at the beach. The sun, the waves, and the sand were the perfect escape. I enjoyed swimming, building sandcastles, and soaking up the sun. It was a refreshing reminder of the beauty of nature and the importance of taking time for myself.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/img6.jpg" alt="Trekking Experience">
+      <div class="card-content">
+        <h2>Trekking in the Western Ghats</h2>
+        <p>Last weekend, I embarked on a trekking adventure in the Western Ghats. The lush greenery and breathtaking views were absolutely stunning. It was a challenging trek, but reaching the summit was worth every step. I felt a sense of accomplishment and connectedness with nature. Trekking not only helps me stay fit but also clears my mind, allowing me to focus better on my studies.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/img7.jpg" alt="AI and ML Journey">
+      <div class="card-content">
+        <h2>My Journey in AI & ML</h2>
+        <p>As a Computer Science student specializing in AI and ML, I am constantly fascinated by the potential of technology. Recently, I completed a project on machine learning algorithms that predict student performance. This experience not only enhanced my coding skills but also deepened my understanding of data analysis and model training. I am excited to explore more projects in this field and contribute to innovative solutions that can make a difference in our daily lives.</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
